@@ -1,0 +1,1 @@
+Vi skal lage et spill som baserer seg på Fireboy and Watergirl. Vi skal prøve å få til et design samtidig som at vi har kontroll over figuerer. Videre skal vi prøve også å ha en meny slikt at det gir en bedre spillopplevelse og brukeropplevelse 
