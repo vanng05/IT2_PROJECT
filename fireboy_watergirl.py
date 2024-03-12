@@ -17,12 +17,12 @@ jumping = False
 Y_GRAVITY = 0.5
 JUMP_HEIGHT = 15
 Y_VELOCITY = JUMP_HEIGHT
- 
+
 STANDING_SURFACE = pygame.transform.scale(pygame.image.load(r"Fireboy-0.webp"), (48, 64))
 
- 
+
 mario_rect = STANDING_SURFACE.get_rect(center=(X_POSITION, Y_POSITION))
- 
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
