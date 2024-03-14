@@ -20,20 +20,20 @@ pygame.display.set_caption('Level Editor')
 
 
 #load images
-sun_img = pygame.image.load('img/sun.png')
+sun_img = pygame.image.load('sun.png')
 sun_img = pygame.transform.scale(sun_img, (tile_size, tile_size))
-bg_img = pygame.image.load('img/sky.png')
+bg_img = pygame.image.load('sky.png')
 bg_img = pygame.transform.scale(bg_img, (screen_width, screen_height - margin))
-dirt_img = pygame.image.load('img/dirt.png')
-grass_img = pygame.image.load('img/grass.png')
-blob_img = pygame.image.load('img/blob.png')
-platform_x_img = pygame.image.load('img/platform_x.png')
-platform_y_img = pygame.image.load('img/platform_y.png')
-lava_img = pygame.image.load('img/lava.png')
-coin_img = pygame.image.load('img/coin.png')
-exit_img = pygame.image.load('img/exit.png')
-save_img = pygame.image.load('img/save_btn.png')
-load_img = pygame.image.load('img/load_btn.png')
+dirt_img = pygame.image.load('dirt.png')
+grass_img = pygame.image.load('grass.png')
+blob_img = pygame.image.load('blob.png')
+platform_x_img = pygame.image.load('platform_x.png')
+platform_y_img = pygame.image.load('platform_y.png')
+lava_img = pygame.image.load('lava.png')
+coin_img = pygame.image.load('coin.png')
+exit_img = pygame.image.load('exit.png')
+save_img = pygame.image.load('save_btn.png')
+load_img = pygame.image.load('load_btn.png')
 
 
 #define game variables
